@@ -1,0 +1,26 @@
+.inputFields {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-left: 5px;
+}
+
+.inputFields:focus {
+  outline: none;
+  border-bottom: 2px solid #323232;
+}
+
+.inputFields::placeholder {
+  color: gray;
+}
+
+.inputFields:focus:invalid {
+  border-bottom: 1px solid red;
+}
+
+span {
+  display: block;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
